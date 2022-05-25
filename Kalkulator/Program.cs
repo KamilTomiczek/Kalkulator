@@ -18,6 +18,9 @@ namespace Kalkulator
                 Console.WriteLine("- - odejmowanie");
                 Console.WriteLine("/ - dzielenie");
                 Console.WriteLine("* - mnożenie");
+                Console.WriteLine("n - NWD");
+                Console.WriteLine("^ - potęga");
+                Console.WriteLine("v - pierwiastek");
 
                 znak = "";
 
@@ -40,6 +43,18 @@ namespace Kalkulator
                 else if (znak == "/")
                 {
                     Dzielenie();
+                }
+                else if (znak == "n")
+                {
+                    NWD();
+                }
+                else if (znak == "^")
+                {
+                    Potega();
+                }
+                else if (znak == "v")
+                {
+                    
                 }
                 else
                 {
@@ -118,6 +133,41 @@ namespace Kalkulator
 
                 Console.WriteLine("\nWynik: " + w);
             }
+
+        }
+        static void NWD()
+        {
+            int a = 0, b = 0;
+
+            Console.WriteLine("Wpisz a: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nWpisz b: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            while (a != b)
+            {
+                if (a > b)
+                    a -= b;
+                else
+                    b -= a;
+            }
+
+            Console.WriteLine("\nWynik: " + a);
+        }
+        static void Potega()
+        {
+            double a = 0,  b = 0;
+
+            Console.WriteLine("Wpisz a: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nWpisz b: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            double wynik = Math.Pow(a, b);
+
+            Console.WriteLine("\nWynik: " + wynik);
         }
     }
 }
