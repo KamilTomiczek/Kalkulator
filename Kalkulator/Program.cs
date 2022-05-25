@@ -59,7 +59,7 @@ namespace Kalkulator
                 }
                 else if (znak == "v")
                 {
-                    
+                    pierwiastek();
                 }
                 else
                 {
