@@ -21,6 +21,7 @@ namespace Kalkulator
                 Console.WriteLine("n - NWD");
                 Console.WriteLine("^ - potęga");
                 Console.WriteLine("v - pierwiastek");
+                Console.WriteLine("1 - czy pierwsza");
 
                 znak = "";
 
@@ -52,9 +53,13 @@ namespace Kalkulator
                 {
                     Potega();
                 }
-                else if (znak == "v")
+                else if (znak == "1")
                 {
                     czyPierwsza();
+                }
+                else if (znak == "v")
+                {
+                    
                 }
                 else
                 {
