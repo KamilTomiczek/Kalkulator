@@ -6,7 +6,6 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
             string znak;
             string end;
 
@@ -163,10 +162,10 @@ namespace Kalkulator
             double a = 0,  b = 0;
 
             Console.WriteLine("Wpisz a: ");
-            a = Convert.ToInt32(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("\nWpisz b: ");
-            b = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
 
             double wynik = Math.Pow(a, b);
 
@@ -178,7 +177,7 @@ namespace Kalkulator
             double a = 0;
 
             Console.WriteLine("Wpisz a: ");
-            a = Convert.ToInt32(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
 
             for (int i = 2; i * i <= a; i++)
             {
@@ -193,6 +192,14 @@ namespace Kalkulator
                     break;
                 }
             }
+        }
+
+        static void pierwiastek()
+        {
+            Console.WriteLine("Wpisz a: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\nWynik: " + Math.Sqrt(a));
         }
     }
 }
