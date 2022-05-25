@@ -1,0 +1,14 @@
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.exe
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.deps.json
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.runtimeconfig.json
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.runtimeconfig.dev.json
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.dll
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\bin\Debug\netcoreapp3.1\Kalkulator.pdb
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.csproj.AssemblyReference.cache
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.AssemblyInfoInputs.cache
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.AssemblyInfo.cs
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.dll
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.pdb
+C:\Users\2pto_PB\Desktop\Projekt2\Kalkulator\obj\Debug\netcoreapp3.1\Kalkulator.genruntimeconfig.cache

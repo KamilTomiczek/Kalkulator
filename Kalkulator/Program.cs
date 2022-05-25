@@ -6,7 +6,8 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-            
+            NWD();
+            Pierwiastek();
         }
         static void NWD()
         {
@@ -15,7 +16,7 @@ namespace Kalkulator
             Console.WriteLine("Wpisz a: ");
             a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Wpisz b: ");
+            Console.WriteLine("\nWpisz b: ");
             b = Convert.ToInt32(Console.ReadLine());
 
             while (a != b)
@@ -27,6 +28,20 @@ namespace Kalkulator
             }
 
             Console.WriteLine("\nWynik: " + a);
+        }
+        static void Pierwiastek()
+        {
+            double a = 0,  b = 0;
+
+            Console.WriteLine("Wpisz a: ");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nWpisz b: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            double wynik = Math.Pow(a, b);
+
+            Console.WriteLine("\nWynik: " + wynik);
         }
     }
 }
